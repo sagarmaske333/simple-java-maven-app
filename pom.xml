@@ -34,4 +34,16 @@
       </plugin>
     </plugins>
   </build>
+ <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://13.233.111.101:8081/repository/demo/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://13.233.111.101:8081/repository/demo_release/</url>
+    </repository>
+  </distributionManagement>
+</project>
+
 </project>
